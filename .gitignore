@@ -1,0 +1,78 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+TestResults/
+out/
+publish/
+*.dbmdl
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored if you use Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# DotCover
+*.dotCover
+
+# Others
+*.vspscc
+*.vssscc
+*.tmp
+*.bak
+*.swp
+*.lock.json
+*.pid
+
+# Entity Framework
+Migrations/
+
+# IIS Express
+/.vs/
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pdb
+
+# User-specific files
+*.env
+
+# Docker
+**/Dockerfile
+**/docker-compose*
+
+# Node.js (if using)
+node_modules/
+
+# Static files
+wwwroot/
+
+# Ignore secrets
+secrets.json
+appsettings.*.json
+!appsettings.json
